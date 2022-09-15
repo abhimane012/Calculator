@@ -1,0 +1,42 @@
+.container {
+  padding: 0;
+}
+
+.btn {
+  border-radius: 0%;
+  border: 1px solid black;
+  font-size: 25px;
+  font-weight: bolder;
+  height: 3.5rem;
+}
+
+#ans-box {
+  font-size: 70px;
+  text-align: right;
+  font-weight: bolder;
+  color: red;
+}
+
+.cal-border {
+  background-color: aqua;
+  /* height: 500px; */
+  width: 500px;
+  margin-top: 150px;
+  position: relative;
+}
+
+.tarea {
+  position: relative;
+  border-radius: 0%;
+  border: 1px solid black;
+  height: 90px;
+}
+.btn-row {
+  position: relative;
+}
+
+.cal-btn {
+  border-radius: 0%;
+  margin: 0;
+  padding: 0;
+}

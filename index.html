@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cal-border container-fluid">
+      <div class="row">
+        <input
+          id="ans-box"
+          class="form-control tarea"
+          type="text"
+          aria-label="readonly input example"
+          readonly
+        />
+      </div>
+
+      <!-- allbuttons placed in it -->
+      <div class="allbuttons">
+        <!-- Row 1 -->
+        <div class="row btn-row">
+          <div class="col-3 cal-btn">
+            <button
+              id="AC"
+              type="button"
+              class="btn btn-success w-100"
+              val="AC"
+            >
+              AC
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button
+              id="sign"
+              type="button"
+              class="btn btn-danger w-100"
+              val="sign"
+            >
+              +/-
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button
+              id="divide"
+              type="button"
+              class="btn btn-danger w-100"
+              val="%"
+            >
+              %
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button
+              id="divide"
+              type="button"
+              class="btn btn-danger w-100"
+              val="/"
+            >
+              /
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row btn-row">
+          <div class="col-3 cal-btn">
+            <button id="seven" type="button" class="btn btn-dark w-100" val="7">
+              7
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="eight" type="button" class="btn btn-dark w-100" val="8">
+              8
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="nine" type="button" class="btn btn-dark w-100" val="9">
+              9
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button
+              id="multiply"
+              type="button"
+              class="btn btn-danger w-100"
+              val="*"
+            >
+              *
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row btn-row">
+          <div class="col-3 cal-btn">
+            <button id="four" type="button" class="btn btn-dark w-100" val="4">
+              4
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="five" type="button" class="btn btn-dark w-100" val="5">
+              5
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="six" type="button" class="btn btn-dark w-100" val="6">
+              6
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button
+              id="minus"
+              type="button"
+              class="btn btn-danger w-100"
+              val="-"
+            >
+              -
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="row btn-row">
+          <div class="col-3 cal-btn">
+            <button id="one" type="button" class="btn btn-dark w-100" val="1">
+              1
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="two" type="button" class="btn btn-dark w-100" val="2">
+              2
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="three" type="button" class="btn btn-dark w-100" val="3">
+              3
+            </button>
+          </div>
+          <div class="col-3 cal-btn">
+            <button id="add" type="button" class="btn btn-danger w-100" val="+">
+              +
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="row btn-row">
+          <div class="col-4 cal-btn">
+            <button id="zero" type="button" class="btn btn-dark w-100" val="0">
+              0
+            </button>
+          </div>
+          <div class="col-4 cal-btn">
+            <button id="dot" type="button" class="btn btn-dark w-100" val=".">
+              .
+            </button>
+          </div>
+          <div class="col-4 cal-btn">
+            <button
+              id="equal"
+              type="button"
+              class="btn btn-danger w-100"
+              val="="
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
